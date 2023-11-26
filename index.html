@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopify Admin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+
+    <nav>
+      <div class="navbar space flex">
+        <a href="https://shopify.com">
+          <img class ="desktop-logo"
+            src="https://crushingit.tech/hackathon-assets/shopify-icon-desktop.svg"
+            alt=""
+          />
+          <img class="mobile-logo" src="https://crushingit.tech/hackathon-assets/shopify-icon.svg" alt="">          
+        </a>
+
+        <div class="searchbar navborder flex">
+          <img
+            class="inv1"
+            src="https://crushingit.tech/hackathon-assets/icon-search.svg"
+            alt=""
+          />
+          <input type="search" name="search" id="search" placeholder="Search" />
+        </div>
+        <div class="flex profile">
+          <button class="notify-button">
+            <img
+              class="inv2"
+              src="https://crushingit.tech/hackathon-assets/icon-bell.svg"
+              alt="notification bell"
+            />
+          </button>
+
+          <button class="nametag navborder flex">
+            <p>Davii Collections</p>
+            <p id="dc">DC</p>
+          </button>
+        </div>
+      </div>
+
+      <div class="drop-down drop-down1 display static">
+        <div class=" flex space">
+          <p>Alerts</p>
+          <div>
+            <img class="inv1" src="https://crushingit.tech/hackathon-assets/icon-filter.svg" alt="notification-dropdown">
+            <img class="inv1" src="https://crushingit.tech/hackathon-assets/icon-check-empty-circle.svg" alt="empty-circle">
+          </div>
+        </div> <br>
+        <div class="alerts">
+          <p>Alerts about your store and account will show here</p>
+        </div>
+      </div>
+
+      <div class="drop-down drop-down2 display flex static">
+        <div class="profile-dropdown flex">
+          <div class="navborder1 flex">
+            <p>Davii Collections</p>
+            <p id="dc">DC</p>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9" fill="none">
+            <path d="M11.3332 1L3.99984 8.33333L0.666504 5" stroke="#303030" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+
+        <div class="">
+          <div class="store flex">
+            <a class="stores flex" href="https://admin.shopify.com">
+              <img src="https://crushingit.tech/hackathon-assets/icon-store.svg" alt="">
+              <p>All stores</p>   
+            </a>
+                       
+          </div> <hr>
+        </div>
+        
+        <div>
+          <ul class="lists">
+            <li><a href="https://admin.shopify.com">Help Center</a></li>
+            <li><a href="https://admin.shopify.com">Changelog</a></li>
+            <li><a href="https://admin.shopify.com">Community forums</a></li>
+            <li><a href="https://admin.shopify.com">Hire a Shopify Partner</a></li>
+            <li><a href="https://admin.shopify.com">Keyboard shortcuts</a></li>
+          </ul>       <hr>   
+        </div>
+
+        <div class="lists">
+          <h5>David Michael</h5>
+          <p class="email">davidmichael@gmail.com</p>
+        </div>
+
+        <div>
+          <ul class="lists">
+            <li><a href="https://admin.shopify.com">Manage account</a></li>
+            <li><a href="https://admin.shopify.com">Log out</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+
+    <main>
+      <div class="container main-body">
+        <div class="extend space flex">
+          <div class="extend-flex flex space">
+            <p>Extend your trial for 3 months on selects plans.</p>
+            <a href="https://shopify.com/pricing">
+              <button>Select a plan</button>  
+            </a>
+            
+          </div>
+
+          <div class="cta flex">
+            <img class="extend-icon"
+              src="https://crushingit.tech/hackathon-assets/icon-cross.svg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="sections">
+          <div class="setup space flex">
+            <div class="sub-setup flex setup">
+              <h3>Setup guide</h3>
+              <p>
+                Use this personalized guide to get your store up and running
+              </p>
+              <div class="progress flex">
+                <p><span class="progress-number">0</span>/5 completed</p>
+                <div class="progress-bar">
+                  <div class="progress-sub-div"></div>
+                </div>
+              </div>
+            </div>
+            <img class="setup-arrow-up display"
+              src="https://crushingit.tech/hackathon-assets/icon-arrow-up.svg"
+              alt="arrow up"
+            />
+            <img class="setup-arrow-down"
+            src="https://crushingit.tech/hackathon-assets/icon-arrow-down.svg" alt="arrow down">
+          </div>
+
+          <div class="main-section display">
+
+            <div class="option1 flex option">
+              <input class="checkboxs display" type="checkbox" name="" id="step1">
+              <label for="step1">
+                <img
+                  class="option-state"
+                  src="https://crushingit.tech/hackathon-assets/icon-dashed-circle.svg"
+                  alt="unticked icon"
+                />
+                <img class="option-state-tick display" src="https://crushingit.tech/hackathon-assets/icon-checkmark-circle.svg" alt="">
+              </label>
+              
+              <div class="sub-option1 space flex">
+                <div class="subbs">
+                  <p class="p-head focus">Customize your online store</p>
+                  <div class="button-included flex">
+                    <p>
+                      Choose a theme and add your logo, colors, and images to
+                      reflect your brand. <a href="">Learn more</a>
+                    </p>
+                    <button>Customize theme</button>
+                  </div>
+                </div>
+                <div>
+                  <img class="img-display"
+                    src="https://crushingit.tech/hackathon-assets/customise-store.png"
+                    alt="customize icon"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="option2 flex option">
+              <input class="checkboxs display " type="checkbox" name="" id="step2">
+              <label for="step2">
+                <img
+                  class="option-state"
+                  src="https://crushingit.tech/hackathon-assets/icon-dashed-circle.svg"
+                  alt="unticked icon"
+                />  
+                <img class="option-state-tick display" src="https://crushingit.tech/hackathon-assets/icon-checkmark-circle.svg" alt="">
+              </label>
+              
+              <div class="sub-option2 space flex">
+                <div class="subbs">
+                  <p class="p-head">Add your first product</p>
+                  <div class="button-included flex display">
+                    <p>
+                      Write a description, add photos, and set pricing for the
+                      products you plan to sell. <a href="">Learn more</a>
+                    </p>
+                    <div>
+                      <button>Add product</button>
+                      <button class="special-button">Import product</button>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <img class="img-display display"
+                    src="https://crushingit.tech/hackathon-assets/product.png"
+                    alt="product icon"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="option3 flex option">
+              <input class="checkboxs display" type="checkbox" name="" id="step3">
+              <label for="step3">
+                <img
+                  class="option-state"
+                  src="https://crushingit.tech/hackathon-assets/icon-dashed-circle.svg"
+                  alt="unticked icon"
+                />  
+                <img class="option-state-tick display" src="https://crushingit.tech/hackathon-assets/icon-checkmark-circle.svg" alt="">
+              </label>
+              
+              <div class="sub-option3 space flex">
+                <div class="subbs">
+                  <p class="p-head">Add a custom domain</p>
+                  <div class="button-included flex display">
+                    <p>
+                      Your current domain is 222219.myshopify.com but you can
+                      add a custom domain to help customers find your online
+                      store. <a href="">Learn more</a>
+                    </p>
+                    <button>Add domain</button>
+                  </div>
+                </div>
+                <div>
+                  <img class="img-display display"
+                    src="https://crushingit.tech/hackathon-assets/website.png"
+                    alt="domain icon"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="option4 flex option">
+              <input class="checkboxs display" type="checkbox" name="" id="step4">
+              <label for="step4">
+                <img
+                  class="option-state"
+                  src="https://crushingit.tech/hackathon-assets/icon-dashed-circle.svg"
+                  alt="unticked icon"
+                />  
+                <img class="option-state-tick display" src="https://crushingit.tech/hackathon-assets/icon-checkmark-circle.svg" alt="">
+              </label>
+              
+              <div class="sub-option4 space flex">
+                <div class="subbs">
+                  <p class="p-head">Name your store</p>
+                  <div class="button-included flex display">
+                    <p>
+                        Your temporary store name is currently Davii collections.
+                        The store name appears in your admin and your online
+                        store. <a href="">Learn more</a>
+                    </p>
+                    <button>Name store</button>
+                  </div>
+                </div>
+                <div class="sub-image1">
+                  <img class="img-display display"
+                    src="https://crushingit.tech/hackathon-assets/name-store.png"
+                    alt="name icon"
+                  />
+                </div>
+              </div>
+            </div>
+
+
+            <div class="option5 flex option">
+              <input class="checkboxs display" type="checkbox" name="" id="step5">
+              <label for="step5">
+                <img
+                  class="option-state"
+                  src="https://crushingit.tech/hackathon-assets/icon-dashed-circle.svg"
+                  alt="unticked icon"
+                />  
+                <img class="option-state-tick display" src="https://crushingit.tech/hackathon-assets/icon-checkmark-circle.svg" alt="">
+              </label>
+              
+              <div class="sub-option5 space flex">
+                <div class="subbs">
+                  <p class="p-head">Set up a payment provider</p>
+                  <div class="button-included flex display">
+                    <p>
+                      Choose a payment provider to start accepting payments.
+                      You'll need to create an account with the payment provider
+                      and set it up with your Shopify store. <a href="">Learn more</a>
+                    </p>
+                    <button>Set up payment</button>
+                  </div>
+                </div>
+                <div class="sub-image1">
+                  <img class="img-display display"
+                    src="https://crushingit.tech/hackathon-assets/payment.png"
+                    alt="card icon"
+                  />
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
